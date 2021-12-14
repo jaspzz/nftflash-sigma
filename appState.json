@@ -37,8 +37,8 @@
         "isRemovable": true,
         "filePath": "getABI.js",
         "cursor": {
-          "lineNumber": 1,
-          "column": 29
+          "lineNumber": 8,
+          "column": 2
         },
         "config": {
           "runtime": "nodejs14",
@@ -54,7 +54,7 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1639518094326,
+        "lastUpdated": 1639520439806,
         "testCases": {
           "db52cd59-7fbb-40bd-b2b4-124d9ef44861": {
             "id": "db52cd59-7fbb-40bd-b2b4-124d9ef44861",
