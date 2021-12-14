@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "nftflash.js",
         "cursor": {
-          "lineNumber": 28,
-          "column": 9
+          "lineNumber": 1,
+          "column": 1
         },
         "config": {
           "runtime": "nodejs14",
@@ -28,7 +28,7 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1639511648422
+        "lastUpdated": 1639512863627
       },
       "a7cb1178-22fb-4c91-8596-df8a52245cfb": {
         "id": "a7cb1178-22fb-4c91-8596-df8a52245cfb",
@@ -79,12 +79,12 @@
         ],
         "lastUpdated": 1639511659842,
         "testCases": {
-          "e3ba2dbc-3d55-499b-9683-b647dbce5068": {
-            "id": "e3ba2dbc-3d55-499b-9683-b647dbce5068",
+          "db52cd59-7fbb-40bd-b2b4-124d9ef44861": {
+            "id": "db52cd59-7fbb-40bd-b2b4-124d9ef44861",
             "name": "Test event",
             "functionId": "b2bac041-378d-49e3-98aa-0d45907b778e",
-            "event": "{\n    \"contractID\": \"0xa45ef87f51b84dbd0d5b003d288b16d3d044fe6f\"\n}",
-            "eventTemplate": "hello-world"
+            "event": "{\n    \"header\": {\n        \"messageId\": \"F8752B11-69BB-4246-B923-3BFB27C06C7D\",\n        \"name\": \"DiscoverAppliancesRequest\",\n        \"namespace\": \"Alexa.ConnectedHome.Discovery\",\n        \"payloadVersion\": \"2\"\n    },\n    \"payload\": {\n        \"accessToken\": \"1\"\n    }\n}",
+            "eventTemplate": "alexa-smart-home-smart-home-discovery-request"
           }
         }
       },
@@ -103,7 +103,7 @@
       "d9db65d9-afbc-43af-8b59-43990cb72b48",
       "b2bac041-378d-49e3-98aa-0d45907b778e"
     ],
-    "currentFileId": "b2bac041-378d-49e3-98aa-0d45907b778e",
+    "currentFileId": "d9db65d9-afbc-43af-8b59-43990cb72b48",
     "resources": {
       "http-trigger": {
         "name": "http-trigger",
@@ -146,7 +146,8 @@
     "projectRegion": "europe-west1",
     "platform": "GCP",
     "language": "nodejs",
-    "platformRegions": {}
+    "platformRegions": {},
+    "lastSave": 1639512820667
   },
   "VCS_STATE": {
     "provider": "GitHub",
