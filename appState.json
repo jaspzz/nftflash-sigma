@@ -1,35 +1,6 @@
 {
   "EDITOR_STATE": {
     "allProjectFiles": {
-      "d9db65d9-afbc-43af-8b59-43990cb72b48": {
-        "id": "d9db65d9-afbc-43af-8b59-43990cb72b48",
-        "parent": null,
-        "name": "nftflash.js",
-        "type": "JS_LAMBDA",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "nftflash.js",
-        "cursor": {
-          "lineNumber": 1,
-          "column": 1
-        },
-        "config": {
-          "runtime": "nodejs14",
-          "handler": "handler",
-          "timeout": 60,
-          "memory": 128,
-          "triggerType": 0,
-          "name": "nftflash"
-        },
-        "triggers": [
-          {
-            "resourceName": "http-trigger",
-            "config": {}
-          }
-        ],
-        "lastUpdated": 1639512863627
-      },
       "a7cb1178-22fb-4c91-8596-df8a52245cfb": {
         "id": "a7cb1178-22fb-4c91-8596-df8a52245cfb",
         "parent": null,
@@ -38,7 +9,12 @@
         "isDirectory": false,
         "children": [],
         "isRemovable": false,
-        "filePath": "index.js"
+        "filePath": "index.js",
+        "lastUpdated": 1639513115722,
+        "cursor": {
+          "lineNumber": 4,
+          "column": 49
+        }
       },
       "1c063dda-fdb2-4e3b-a95e-cb8b96bbbfa7": {
         "id": "1c063dda-fdb2-4e3b-a95e-cb8b96bbbfa7",
@@ -48,7 +24,8 @@
         "isDirectory": false,
         "children": [],
         "isRemovable": false,
-        "filePath": "main.py"
+        "filePath": "main.py",
+        "lastUpdated": 1639513114091
       },
       "b2bac041-378d-49e3-98aa-0d45907b778e": {
         "id": "b2bac041-378d-49e3-98aa-0d45907b778e",
@@ -60,7 +37,7 @@
         "isRemovable": true,
         "filePath": "getABI.js",
         "cursor": {
-          "lineNumber": 9,
+          "lineNumber": 10,
           "column": 2
         },
         "config": {
@@ -77,14 +54,14 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1639511659842,
+        "lastUpdated": 1639518094326,
         "testCases": {
           "db52cd59-7fbb-40bd-b2b4-124d9ef44861": {
             "id": "db52cd59-7fbb-40bd-b2b4-124d9ef44861",
-            "name": "Test event",
+            "name": "test",
             "functionId": "b2bac041-378d-49e3-98aa-0d45907b778e",
-            "event": "{\n    \"header\": {\n        \"messageId\": \"F8752B11-69BB-4246-B923-3BFB27C06C7D\",\n        \"name\": \"DiscoverAppliancesRequest\",\n        \"namespace\": \"Alexa.ConnectedHome.Discovery\",\n        \"payloadVersion\": \"2\"\n    },\n    \"payload\": {\n        \"accessToken\": \"1\"\n    }\n}",
-            "eventTemplate": "alexa-smart-home-smart-home-discovery-request"
+            "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}",
+            "eventTemplate": "hello-world"
           }
         }
       },
@@ -96,14 +73,17 @@
         "isDirectory": false,
         "children": [],
         "isRemovable": true,
-        "filePath": "package.json"
+        "filePath": "package.json",
+        "lastUpdated": 1639513094667
       }
     },
     "openFiles": [
-      "d9db65d9-afbc-43af-8b59-43990cb72b48",
-      "b2bac041-378d-49e3-98aa-0d45907b778e"
+      "b2bac041-378d-49e3-98aa-0d45907b778e",
+      "15d69192-b436-4548-8e65-2d6a8b72b640",
+      "1c063dda-fdb2-4e3b-a95e-cb8b96bbbfa7",
+      "a7cb1178-22fb-4c91-8596-df8a52245cfb"
     ],
-    "currentFileId": "d9db65d9-afbc-43af-8b59-43990cb72b48",
+    "currentFileId": "b2bac041-378d-49e3-98aa-0d45907b778e",
     "resources": {
       "http-trigger": {
         "name": "http-trigger",
@@ -114,7 +94,7 @@
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
-      "dialect": null,
+      "dialect": "CloudFormation",
       "definitions": null
     },
     "envVariables": [
