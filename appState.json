@@ -60,8 +60,8 @@
         "isRemovable": true,
         "filePath": "getABI.js",
         "cursor": {
-          "lineNumber": 9,
-          "column": 2
+          "lineNumber": 3,
+          "column": 17
         },
         "config": {
           "runtime": "nodejs14",
@@ -77,7 +77,26 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1639511659842
+        "lastUpdated": 1639511659842,
+        "testCases": {
+          "e3ba2dbc-3d55-499b-9683-b647dbce5068": {
+            "id": "e3ba2dbc-3d55-499b-9683-b647dbce5068",
+            "name": "Test event",
+            "functionId": "b2bac041-378d-49e3-98aa-0d45907b778e",
+            "event": "{\n    \"contractID\": \"0xa45ef87f51b84dbd0d5b003d288b16d3d044fe6f\"\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      },
+      "15d69192-b436-4548-8e65-2d6a8b72b640": {
+        "id": "15d69192-b436-4548-8e65-2d6a8b72b640",
+        "parent": null,
+        "name": "package.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "package.json"
       }
     },
     "openFiles": [
@@ -109,7 +128,14 @@
       }
     ],
     "packageJSON": {
-      "dependencies": {}
+      "dependencies": {
+        "axios": {
+          "name": "axios",
+          "version": "0.24.0",
+          "dev": false,
+          "language": "nodejs"
+        }
+      }
     }
   },
   "PROJECT_META": {

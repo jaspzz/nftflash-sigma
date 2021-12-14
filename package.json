@@ -1,6 +1,5 @@
 {
-  "name": "nftflash",
-  "version": "1.0.0",
-  "dependencies": {},
-  "devDependencies": {}
+    "dependencies": {
+        "axios": "0.24.0"
+    }
 }
