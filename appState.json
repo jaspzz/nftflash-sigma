@@ -1,0 +1,132 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "d9db65d9-afbc-43af-8b59-43990cb72b48": {
+        "id": "d9db65d9-afbc-43af-8b59-43990cb72b48",
+        "parent": null,
+        "name": "nftflash.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "nftflash.js",
+        "cursor": {
+          "lineNumber": 28,
+          "column": 9
+        },
+        "config": {
+          "runtime": "nodejs14",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "nftflash"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1639511648422
+      },
+      "a7cb1178-22fb-4c91-8596-df8a52245cfb": {
+        "id": "a7cb1178-22fb-4c91-8596-df8a52245cfb",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "1c063dda-fdb2-4e3b-a95e-cb8b96bbbfa7": {
+        "id": "1c063dda-fdb2-4e3b-a95e-cb8b96bbbfa7",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      },
+      "b2bac041-378d-49e3-98aa-0d45907b778e": {
+        "id": "b2bac041-378d-49e3-98aa-0d45907b778e",
+        "parent": null,
+        "name": "getABI.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "getABI.js",
+        "cursor": {
+          "lineNumber": 9,
+          "column": 2
+        },
+        "config": {
+          "runtime": "nodejs14",
+          "handler": "handler",
+          "timeout": 120,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "getABI"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1639511659842
+      }
+    },
+    "openFiles": [
+      "d9db65d9-afbc-43af-8b59-43990cb72b48",
+      "b2bac041-378d-49e3-98aa-0d45907b778e"
+    ],
+    "currentFileId": "b2bac041-378d-49e3-98aa-0d45907b778e",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "INFURA_API_KEY",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": true
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.9.5",
+    "projectName": "nftflash",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "europe-west1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {}
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "nftflash-sigma",
+      "url": "https://github.com/jaspzz/nftflash-sigma"
+    }
+  }
+}
