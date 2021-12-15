@@ -25,7 +25,7 @@
         "children": [],
         "isRemovable": false,
         "filePath": "main.py",
-        "lastUpdated": 1639513114091
+        "lastUpdated": 1639585758789
       },
       "b2bac041-378d-49e3-98aa-0d45907b778e": {
         "id": "b2bac041-378d-49e3-98aa-0d45907b778e",
@@ -37,7 +37,7 @@
         "isRemovable": true,
         "filePath": "getABI.js",
         "cursor": {
-          "lineNumber": 11,
+          "lineNumber": 14,
           "column": 2
         },
         "config": {
@@ -54,13 +54,13 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1639520439806,
+        "lastUpdated": 1639585777962,
         "testCases": {
           "db52cd59-7fbb-40bd-b2b4-124d9ef44861": {
             "id": "db52cd59-7fbb-40bd-b2b4-124d9ef44861",
             "name": "test",
             "functionId": "b2bac041-378d-49e3-98aa-0d45907b778e",
-            "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}",
+            "event": "{\n    \"contractID\": \"0xa45ef87f51b84dbd0d5b003d288b16d3d044fe6f\"\n}",
             "eventTemplate": "hello-world"
           }
         }
@@ -74,7 +74,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "package.json",
-        "lastUpdated": 1639513094667
+        "lastUpdated": 1639585773719
       }
     },
     "openFiles": [
@@ -114,6 +114,18 @@
           "version": "0.24.0",
           "dev": false,
           "language": "nodejs"
+        },
+        "@firebase/functions": {
+          "name": "@firebase/functions",
+          "version": "0.7.6",
+          "dev": false,
+          "language": "nodejs"
+        },
+        "firebase-functions": {
+          "name": "firebase-functions",
+          "version": "3.16.0",
+          "dev": false,
+          "language": "nodejs"
         }
       }
     }
@@ -127,7 +139,7 @@
     "platform": "GCP",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1639521980999
+    "lastSave": 1639526570215
   },
   "VCS_STATE": {
     "provider": "GitHub",
